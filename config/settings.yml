@@ -1,0 +1,13 @@
+plugins:
+  gitlab_integration_enabled:
+    default: false
+    client: boolean
+  gitlab_private_token:
+    default: "YOUR_GITLAB_PRIVATE_TOKEN"
+    client: text
+  gitlab_project_id:
+    default: "YOUR_GITLAB_PROJECT_ID"
+    client: text
+  gitlab_api_url:
+    default: "https://gitlab.example.com/api/v4"
+    client: text
